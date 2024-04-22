@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#apelidologo{
+    width: 40%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin-top: 1%;
+}
+
+#linkLogo{
+    width: 35%;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menunav{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+main{
+    width: 100%;
+}
+
+#bannerVideo{
+    margin-top: 5%;
+    background-image: url(./img/fundo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 800px;    
+    font-family: Arial;
+    display: flex;
+    align-items: start;
+    color: white;
+    flex-direction: column;
+}
+
+#bannerVideo div{
+    height: 150px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bannerVideo a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+#bannerVideo a:hover{
+    color: rgb(204, 204, 0);
+}
+
+#bannerVideo img{
+    width: 20%;
+}
+
+#bannerVideo p {
+    margin-top: -6%;
+    width: 35%;
+}
+
+#miniFotos{
+    display: flex;
+
+    }
+
+#miniFotos img{
+    width: 150px; 
+    height:  150px;
+}
